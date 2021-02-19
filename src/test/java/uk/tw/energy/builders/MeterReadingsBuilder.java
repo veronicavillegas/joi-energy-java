@@ -16,7 +16,7 @@ public class MeterReadingsBuilder {
 
     public MeterReadingsBuilder setSmartMeterId(String smartMeterId) {
         this.smartMeterId = smartMeterId;
-        return this;
+        return this; 
     }
 
     public MeterReadingsBuilder generateElectricityReadings() {
